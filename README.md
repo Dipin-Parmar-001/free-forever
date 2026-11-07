@@ -4,14 +4,14 @@
 
 **Every free LLM. Every free hosting tier. Real limits, tested latency, and zero BS.**
 
-[![Live Web App](https://img.shields.io/badge/Live%20App-free--forever.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://free-forever.vercel.app)
+[![Live Web App](https://img.shields.io/badge/Live%20App-free--forever.netlify.app-00ad9f?style=for-the-badge&logo=netlify&logoColor=white)](https://free-forever.netlify.app/)
 [![Daily Limits Monitor](https://img.shields.io/github/actions/workflow/status/Dipin-Parmar-001/free-forever/limits-monitor.yml?branch=main&label=Daily%20Limits%20Monitor&style=for-the-badge)](https://github.com/Dipin-Parmar-001/free-forever/actions/workflows/limits-monitor.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](https://github.com/Dipin-Parmar-001/free-forever/pulls)
 
-### 🌐 [https://free-forever.vercel.app](https://free-forever.vercel.app)
+### 🌐 [https://free-forever.netlify.app/](https://free-forever.netlify.app/)
 
-[**Live Application**](https://free-forever.vercel.app) • [**Verified Sources**](./sources.md) • [**Data Collection & Benchmarks**](./data_collection.md) • [**Contributing**](#-contributing--community-updates)
+[**Live Application**](https://free-forever.netlify.app/) • [**Verified Sources**](./sources.md) • [**Data Collection & Benchmarks**](./data_collection.md) • [**Contributing**](#-contributing--community-updates)
 
 </div>
 
@@ -36,7 +36,7 @@ All data is kept evergreen using a **SHA-256 automated hash diff monitor** runni
   - Filter by Provider (Google AI Studio, Groq, Mistral, Cerebras, NVIDIA NIM, OpenRouter).
   - Filter by Capabilities (Reasoning, Tool Calling, Vision/Multimodal, Audio transcription, TTS).
   - Sort by Daily Budget (RPD), Request Throughput (RPM), Context Window, or Lowest Latency.
-- ⚡ **Zero-Dependency Interactive UI**: A single ultra-responsive, beautiful frontend (`app/free-forever.html`) deployed globally on Vercel with brutalist design aesthetics, dark/light theme support, and instantaneous client-side filtering.
+- ⚡ **Zero-Dependency Interactive UI**: A single ultra-responsive, beautiful frontend (`app/index.html`) deployed globally on Netlify with brutalist design aesthetics, dark/light theme support, and instantaneous client-side filtering.
 - 🤖 **Automated Daily Drift Detection**: GitHub Actions monitors upstream documentation daily and logs diffs into `data/alerts.csv` whenever providers adjust quotas.
 
 ---
@@ -49,7 +49,7 @@ FREE FOREVER/
 │   └── workflows/
 │       └── limits-monitor.yml                    # Daily automated limits crawler & diff detector
 ├── app/
-│   ├── free-forever.html                         # Production single-page web application
+│   ├── index.html                                # Production single-page web application
 │   └── limits_monitor_workflow.py                # Automated workflow monitoring live URL hashes & CSV diffs
 ├── data/                                         # Production datasets & audit trail
 │   ├── alerts.csv                                # Log of detected drift & rate limit updates
@@ -81,7 +81,7 @@ cd free-forever
 # Serve using Python's built-in HTTP server
 python -m http.server 8000 --directory app
 ```
-Navigate to `http://localhost:8000/free-forever.html` in your browser.
+Navigate to `http://localhost:8000/index.html` (or `http://localhost:8000`) in your browser.
 
 ---
 
@@ -147,7 +147,7 @@ We actively welcome and encourage contributions from the developer community! Fr
 ## 👨‍💻 Author
 
 **Dipin Parmar**
-- **Live Deployment**: [free-forever.vercel.app](https://free-forever.vercel.app)
+- **Live Deployment**: [free-forever.netlify.app](https://free-forever.netlify.app/)
 - **LinkedIn**: [linkedin.com/in/dipin-parmar-1119b5385](https://www.linkedin.com/in/dipin-parmar-1119b5385)
 - **GitHub**: [@Dipin-Parmar-001](https://github.com/Dipin-Parmar-001)
 

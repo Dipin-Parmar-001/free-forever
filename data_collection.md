@@ -1,6 +1,6 @@
 # Data Collection & Verification Methodology
 
-**FREE FOREVER** ([free-forever.vercel.app](https://free-forever.vercel.app)) is committed to providing 100% transparent, verified, and actionable intelligence on free LLM APIs and free cloud deployment tiers. This document details the hybrid architecture used to discover, curate, benchmark, and maintain the dataset.
+**FREE FOREVER** ([free-forever.netlify.app](https://free-forever.netlify.app/)) is committed to providing 100% transparent, verified, and actionable intelligence on free LLM APIs and free cloud deployment tiers. This document details the hybrid architecture used to discover, curate, benchmark, and maintain the dataset.
 
 ---
 

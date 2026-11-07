@@ -1,6 +1,6 @@
 # Official Documentation & Pricing Sources
 
-This document catalogs all verified primary sources, official documentation pages, developer portals, and pricing sheets consulted in building and maintaining **FREE FOREVER** ([free-forever.vercel.app](https://free-forever.vercel.app)).
+This document catalogs all verified primary sources, official documentation pages, developer portals, and pricing sheets consulted in building and maintaining **FREE FOREVER** ([free-forever.netlify.app](https://free-forever.netlify.app/)).
 
 ---
 
