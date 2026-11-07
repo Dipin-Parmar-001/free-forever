@@ -11,7 +11,7 @@
 
 ### 🌐 [https://free-forever.vercel.app](https://free-forever.vercel.app)
 
-[**Live Application**](https://free-forever.vercel.app) • [**Verified Sources**](./sources.md) • [**Data Collection & Benchmarks**](./data_collection.md) • [**Contributing**](#-contributing--community-updates)
+[**Live Application**](https://free-forever.netlify.app/) • [**Verified Sources**](./sources.md) • [**Data Collection & Benchmarks**](./data_collection.md) • [**Contributing**](#-contributing--community-updates)
 
 </div>
 
@@ -147,7 +147,7 @@ We actively welcome and encourage contributions from the developer community! Fr
 ## 👨‍💻 Author
 
 **Dipin Parmar**
-- **Live Deployment**: [free-forever.vercel.app](https://free-forever.vercel.app)
+- **Live Deployment**: [free-forever.vercel.app](https://free-forever.netlify.app/)
 - **LinkedIn**: [linkedin.com/in/dipin-parmar-1119b5385](https://www.linkedin.com/in/dipin-parmar-1119b5385)
 - **GitHub**: [@Dipin-Parmar-001](https://github.com/Dipin-Parmar-001)
 
