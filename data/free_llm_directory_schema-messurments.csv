@@ -1,0 +1,67 @@
+MEASUREMENT_ID,OFFERING_ID,TIMESTAMP,TEST_REGION,SOURCE,PROMPT_TOKENS,AVG_OUTPUT_TOKENS,TOTAL_RUNS,SUCCESSFUL_RUNS,AVG_TTFT_SECONDS,AVG_LATENCY_SECONDS,P50_LATENCY_SECONDS,P95_LATENCY_SECONDS,TOKENS_PER_SECOND,STREAMING_USED,TOTAL_TEST_DURATION_SECONDS,ERROR_SUMMARY
+6cc8b9d0-c947-4571-89f2-a25aa923149b,nvidia_nim__minimax-m3-1-flash,2026-11-03T21:07:00+05:30,India,own_tested,null,null,30,27,62.048,69.621,65.955,108.082,null,TRUE,2242,"HTTPSConnectionPool(host='integrate.api.nvidia.com', port=443): Read timed out. (read timeout=120)"
+44b476ba-0842-44d4-9280-930cf7733999,nvidia_nim__laguna-xs-2-1,2026-11-03T21:45:00+05:30,India,own_tested,null,null,30,30,0.952,2.38,2.366,3.67,null,TRUE,71.41,none
+22faaf75-b83a-4e8a-8ba7-c5d00ace906c,nvidia_nim__diffusiongemma-26b-a4b-it,2026-11-03T21:46:00+05:30,India,own_tested,null,null,30,30,3.668,3.668,2.073,10.324,null,TRUE,110.07,none
+8d7c1aaf-3399-4d4e-a6b5-ea98892f641f,nvidia_nim__mistral-large-4,2026-11-03T20:58:00+05:30,India,own_tested,null,null,30,30,3.925,19.016,18.69,33.456,null,TRUE,570.49,none
+9d0270bf-bd68-49be-8095-30c11df934d1,nvidia_nim__nemotron-3-ultra-550b-a55b,2026-11-04T09:15:00+05:30,India,own_tested,null,null,30,30,1.363,4.071,3.49,7.707,null,TRUE,122.14,
+f0e8d763-20a7-41e5-8dd2-ecbd8c070d52,nvidia_nim__nemotron-3-5-lightning-30b-a3b,2026-11-04T09:17:00+05:30,India,own_tested,null,null,30,30,0.887,10.293,9.875,15.554,null,TRUE,308.79,
+9bc0276d-5fc3-4d0e-ba09-c97e412ebce5,nvidia_nim__nemotron-3-5-parse,2026-11-04T09:23:00+05:30,India,own_tested,null,null,30,30,null,2.136,2.078,2.542,null,FALSE,64.09,
+d225c38d-83d8-4bd9-b868-216e6f49c7ac,nvidia_nim__nemotron-3-5-embed-8b,2026-11-04T09:48:00+05:30,India,own_tested,null,null,30,14,null,4.508,4.442,5.126,null,FALSE,126.82,HTTP 500
+151f06c5-a61f-408e-9e58-dcc8e2869c72,groq__openai-gpt-oss-120b,2026-11-04T13:12:00+05:30,India,own_tested,null,null,30,30,1.168,1.295,1.302,1.5,null,TRUE,39.11,
+427a02b8-b752-4f48-9b2e-5b7d9d9c1588,groq__openai-gpt-oss-20b,2026-11-04T13:12:00+05:30,India,own_tested,null,null,30,30,1.166,1.195,1.188,1.363,null,TRUE,36.1,
+e38b7774-15cb-4e4a-9909-2ae95a5cafec,groq__qwen-3-8-27b,2026-11-04T13:13:00+05:30,India,own_tested,null,null,30,13,0.837,1.05,1.07,1.209,null,TRUE,27.97,HTTP 429
+c18c8183-1bd5-452a-bc2e-e51410687b88,groq__whisper-large-v3,2026-11-04T13:14:00+05:30,India,own_tested,null,null,30,25,null,2.218,2.189,2.482,null,FALSE,63.1,HTTP 429
+31c88bed-01af-45df-b1a4-3f989edb7ac4,groq__whisper-large-v3-turbo,2026-11-04T13:15:00+05:30,India,own_tested,null,null,30,24,null,2.24,2.178,2.704,null,FALSE,62.33,HTTP 429
+4fa41484-8d95-461a-9f51-48fcdba3c4cf,google_ai_studio__gemini-3-8-flash,2026-11-04T20:19:00+05:30,India,own_tested,null,null,20,0,null,null,null,null,null,TRUE,498.32,HTTP 503
+bb7e8ab3-7a84-47ee-8431-a66c0371dc83,google_ai_studio__gemini-3-5-flash-lite,2026-11-04T20:27:00+05:30,India,own_tested,null,null,30,30,20.907,22.029,20.134,49.249,null,TRUE,807.32,
+72596e8d-1389-43d6-b8f2-341ee07e5455,google_ai_studio__gemini-3-6-flash,2026-11-04T20:40:00+05:30,India,own_tested,null,null,20,13,6.479,8.627,8.12,14.923,null,TRUE,400.94,HTTP 503
+291fa3a8-f0b2-494a-b5eb-ff0aee90d467,google_ai_studio__gemini-3-1-flash-lite,2026-11-04T20:47:00+05:30,India,own_tested,null,null,30,3,17.002,18.383,17.274,33.361,null,TRUE,575.8,HTTP 503
+877b5716-60dd-4cdf-88e7-d611f877f378,google_ai_studio__gemini-2-5-flash,2026-11-04T20:57:00+05:30,India,own_tested,null,null,20,18,6.75,9.404,10.569,17.488,null,TRUE,422.6,HTTP 429
+df612e1e-71e1-4849-86fc-dd568746fad4,google_ai_studio__gemma-4-26b,2026-11-04T21:07:00+05:30,India,own_tested,null,null,30,16,6.52,30.248,30.362,62.721,null,TRUE,626.95,HTTP 500; HTTP 503
+65e98512-04ed-46ae-85f9-8f5d3e728e7d,google_ai_studio__gemma-4-31b,2026-11-04T21:18:00+05:30,India,own_tested,null,null,30,9,30.298,55.224,48.892,83.524,null,TRUE,806.58,HTTP 500
+a751d248-5a7d-4539-b07a-dab3b576b525,google_ai_studio__gemini-3-8-flash-tts,2026-11-04T21:31:00+05:30,India,own_tested,null,null,10,9,2.572,2.572,2.499,3.443,null,TRUE,230.38,HTTP 429
+9d4ba2c7-b307-4e89-b7a3-5f4b4b10babe,google_ai_studio__gemini-3-8-flash-lite-tts,2026-11-04T21:35:00+05:30,India,own_tested,null,null,10,10,2.018,2.018,2.074,2.22,null,TRUE,226.2,HTTP 429
+22f80f9a-56f7-41ef-a7a4-d43b8333aaf1,google_ai_studio__gemini-3-1-flash-tts,2026-11-05T09:28:00+05:30,India,own_tested,null,null,10,10,4.989,4.989,4.454,6.751,null,FALSE,239.89,
+73ff5c63-958f-4848-9462-126e26e8180e,google_ai_studio__gemini-2-5-flash-tts,2026-11-05T09:36:00+05:30,India,own_tested,null,null,10,8,9.355,9.355,6.679,29.059,null,FALSE,291.57,HTTP 400
+a5343375-1016-4b9e-b26a-580d65d615df,google_ai_studio__gemini-3-5-transcribe,2026-11-04T21:46:00+05:30,India,own_tested,null,null,25,24,0.988,0.988,0.968,1.193,null,TRUE,538.12,HTTP 429
+aace1b22-20b0-4a4c-9f77-3f77f0b83e42,google_ai_studio__gemini-embedding-1,2026-11-05T09:41:00+05:30,India,own_tested,null,null,30,30,1.045,1.045,1.025,1.292,null,FALSE,65.89,
+3aa4a0df-ba52-494f-a320-eccd5a8441da,google_ai_studio__gemini-embedding-2,2026-11-04T21:56:00+05:30,India,own_tested,null,null,30,30,1.14,1.14,1.133,1.268,null,FALSE,68.5,
+1eb0612b-c37e-43b6-ae21-fc86306a9f17,openrouter__nvidia-nemotron-3-ultra-550b-a55b-free,2026-11-03T21:49:05+05:30,global,provider_stated,null,null,0,0,1.77,1.73,1.7,15.09,34,TRUE,0,
+720624b7-172a-4545-a758-47ad179ace21,openrouter__nvidia-nemotron-3-5-super-vl-free,2026-11-03T21:49:05+05:30,global,provider_stated,null,null,0,0,1.62,1.62,1.6,14.2,89,TRUE,0,
+df02618c-e424-4efd-b41a-eeb06d8e308a,openrouter__nvidia-nemotron-3-5-lightning-free,2026-11-03T21:49:05+05:30,global,provider_stated,null,null,0,0,0.52,0.542,0.542,2.85,74,TRUE,0,
+88ed25d5-a3f0-4fd2-aa81-f3d39bb5fec8,openrouter__dots-studio-dots-3-note-preview-free,2026-11-03T21:49:05+05:30,global,provider_stated,null,null,0,0,3.1,3.25,3.1,18.4,40,TRUE,0,
+5c55c91c-c5a7-468a-bb16-07052ad944a6,openrouter__thinkingmachines-inkling-free,2026-11-03T21:49:05+05:30,global,provider_stated,null,null,0,0,3.21,4.2,4.2,22.5,18,TRUE,0,
+e1c0d02c-9d54-4644-ab28-2d1a2bade00d,openrouter__cohere-north-mini-code-free,2026-11-03T21:49:05+05:30,global,provider_stated,null,null,0,0,0.71,0.72,0.72,3.9,67,TRUE,0,
+316f32ef-0a6e-4317-b78e-1bf3b10985d4,openrouter__thinkingmachines-inkling-small-free,2026-11-03T21:49:05+05:30,global,provider_stated,null,null,0,0,1.91,1.9,1.9,9.8,73,TRUE,0,
+c0b86c3b-7789-4fa7-bdf4-0a63aa1c6557,openrouter__nvidia-nemotron-3-nano-omni-free,2026-11-03T21:49:05+05:30,global,provider_stated,null,null,0,0,0.524,0.54,0.524,2.4,87,TRUE,0,
+efa0dd0a-98ee-42c5-88b4-1575ae8c0542,openrouter__xingchen-agi-xing4-0-29b-a4b-free,2026-11-03T21:49:05+05:30,global,provider_stated,null,null,0,0,1.6,1.62,1.6,8.1,49,TRUE,0,
+edcd0d70-4490-431b-8a04-8c14776fc8e2,openrouter__liquid-lfm-2-5-2-6b-free,2026-11-03T21:49:05+05:30,global,provider_stated,null,null,0,0,0.27,0.272,0.272,1.23,355,TRUE,0,
+0daeeaad-9e54-4075-9d56-c81d6483bc71,openrouter__respan-span-01-lite-free,2026-11-03T21:49:05+05:30,global,provider_stated,null,null,0,0,0.59,0.65,0.66,1.45,null,FALSE,0,
+4eb42337-5fae-4c00-995f-349215bb1639,openrouter__nvidia-llama-nemotron-rerank-vl-1b-v2-free,2026-11-03T21:49:05+05:30,global,provider_stated,null,null,0,0,0.58,0.643,0.643,1.32,null,FALSE,0,
+07b1e1a8-0324-43a0-9471-008c9ce25e55,openrouter__google-gemma-4-26b-a4b-it-free,2026-11-03T21:49:05+05:30,global,provider_stated,null,null,0,0,0.92,0.934,0.934,4.8,39,TRUE,0,
+403508e8-90ca-445e-b25a-ece4149d09d3,openrouter__nvidia-nemotron-3-5-rerank-8b-free,2026-11-03T21:49:05+05:30,global,provider_stated,null,null,0,0,0.362,0.362,0.362,0.98,null,FALSE,0,
+d283c2d1-3a81-49d5-86a1-cb93eaf4656f,openrouter__nvidia-nemotron-3-embed-1b-free,2026-11-03T21:49:05+05:30,global,provider_stated,null,null,0,0,0.37,0.37,0.37,0.85,null,FALSE,0,
+b8793641-bb88-42f2-b996-dc1eba5bf55c,openrouter__google-gemma-4-31b-it-free,2026-11-03T21:49:05+05:30,global,provider_stated,null,null,0,0,1.28,1.22,1.2,23.97,31,TRUE,0,
+c0e91143-5c25-437f-adf1-5abe32b26db2,openrouter__nvidia-nemotron-3-5-embed-1b-free,2026-11-03T21:49:05+05:30,global,provider_stated,null,null,0,0,0.469,0.469,0.469,1.15,null,FALSE,0,
+11e23f33-1c11-4acb-addd-90b5d3799013,openrouter__nvidia-llama-nemotron-embed-vl-1b-v2-free,2026-11-03T21:49:05+05:30,global,provider_stated,null,null,0,0,0.499,0.499,0.499,1.08,null,FALSE,0,
+aa1212c6-f7e3-4df5-b11d-417d06099f1f,openrouter__liquid-lfm-2-5-embedding-350m-free,2026-11-03T21:49:05+05:30,global,provider_stated,null,null,0,0,0.372,0.372,0.372,0.92,null,FALSE,0,
+632f0cab-ad9c-4aed-b8ec-38c2c1a97c9b,openrouter__heygen-voice-turbo-free,2026-11-03T21:49:05+05:30,global,provider_stated,null,null,0,0,0.71,0.556,0.556,1.85,null,TRUE,0,
+00a38b63-a73d-4a0b-963e-75682e016b12,openrouter__fish-audio-s2-1-pro-free,2026-11-03T21:49:05+05:30,global,provider_stated,null,null,0,0,0.662,0.662,0.662,1.92,null,TRUE,0,
+e0592477-84db-4c79-8987-b4b5df302891,openrouter__openrouter-free-router,2026-11-03T21:49:05+05:30,global,provider_stated,null,null,0,0,0.85,0.95,0.85,4.5,55,TRUE,0,
+e0592477-84db-4c79-8987-b4b5df302892,cerebras__free-gpt-oss-120b,2026-11-05T21:35:00+05:30,us-east,provider_stated,null,null,0,0,0.28,0.963,0.91,1.25,3000,TRUE,0,
+e0592477-84db-4c79-8987-b4b5df302893,cerebras__free-qwen-3.8-27b,2026-11-05T21:35:00+05:30,us-east,provider_stated,null,null,0,0,0.3,1.407,1.38,1.82,1850,TRUE,0,
+1a39b76f-303b-4f00-86df-bbab147983f6,mistral_studio__codestral-2508,2026-11-05T18:00:31+05:30,India,own_tested,null,null,30,30,1.056,1.834,1.829,2.457,null,TRUE,74.98,none
+567a1d95-0514-44fa-ab4b-963afb7757ce,mistral_studio__codestral-embed,2026-11-05T18:01:46+05:30,India,own_tested,null,null,30,30,1.156,1.156,1.018,2.534,null,FALSE,69.71,none
+c0f58097-8e21-4f45-bfc4-42649a1c3560,mistral_studio__ministral-3b-2512,2026-11-05T18:08:46+05:30,India,own_tested,null,null,30,30,1.126,2.952,2.664,5.336,null,TRUE,96.89,none
+355f7b9c-b2b1-4bac-84db-f45a3674c063,mistral_studio__ministral-8b-2512,2026-11-05T18:10:23+05:30,India,own_tested,null,null,30,30,1.497,4.15,3.607,5.748,null,TRUE,139.78,none
+8052090c-888b-4cf1-ad04-638eaf6c2871,mistral_studio__mistral-embed-2312,2026-11-05T18:12:43+05:30,India,own_tested,null,null,30,30,1.792,1.792,1.542,3.468,null,FALSE,88.76,none
+3b3da4b1-0b7b-4b0c-8d58-2e49e0192e1c,mistral_studio__mistral-large-4,2026-11-05T18:41:59+05:30,India,own_tested,null,null,30,30,2.209,3.408,2.787,8.584,null,TRUE,151.74,none
+2b77b5c0-5554-407d-840e-7ec7bbe8f4f6,mistral_studio__mistral-moderation-2603,2026-11-05T18:18:34+05:30,India,own_tested,null,null,30,30,0.868,0.868,0.804,1.308,null,FALSE,49.45,none
+89992070-69f0-4657-bfb7-3dd8839128c2,mistral_studio__voxtral-mini-2602,2026-11-05T18:46:49+05:30,India,own_tested,null,null,30,30,3.395,3.395,2.53,7.89,null,TRUE,145.55,none
+290bad75-bfea-4adb-b3bf-b184a717ae21,mistral_studio__voxtral-mini-transcribe-3,2026-11-05T18:49:15+05:30,India,own_tested,null,null,30,30,4.6,4.6,4.541,5.737,null,TRUE,181.68,none
+1660a839-959c-41ed-98cb-792a48a5237c,mistral_studio__voxtral-mini-transcribe-realtime-2602,2026-11-05T18:52:17+05:30,India,own_tested,null,null,0,0,null,null,null,null,null,TRUE,0,WebSocket realtime audio only (HTTP not supported)
+daaea900-c617-4273-b925-2b43e1adf9b0,mistral_studio__voxtral-mini-transcribe-realtime-3,2026-11-05T18:52:17+05:30,India,own_tested,null,null,0,0,null,null,null,null,null,TRUE,0,WebSocket realtime audio only (HTTP not supported)
+66712a16-9aa0-4949-beb9-a214ddcc5483,mistral_studio__voxtral-mini-tts-2603,2026-11-05T18:52:17+05:30,India,own_tested,null,null,30,30,1.69,1.69,1.651,2.534,null,TRUE,94.43,none
+8bfe6506-b9d7-418a-92f4-da2db62377c4,mistral_studio__voxtral-mini-tts-3-0,2026-11-05T18:53:51+05:30,India,own_tested,null,null,30,30,1.754,1.754,1.622,2.904,null,TRUE,96.31,none
+dd2af659-6fa3-4283-bcf3-ac7c7e285d97,mistral_studio__voxtral-small-2507,2026-11-05T18:55:28+05:30,India,own_tested,null,null,30,30,0.982,1.727,1.693,2.255,null,TRUE,95.53,none
+5c6af93b-8940-441f-aa10-e774fade3d71,mistral_studio__voxtral-small-transcribe-3,2026-11-05T18:57:03+05:30,India,own_tested,null,null,30,30,8.299,8.299,4.994,22.822,null,TRUE,292.69,none
