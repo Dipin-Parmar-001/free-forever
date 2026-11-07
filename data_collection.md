@@ -1,20 +1,20 @@
 # Data Collection & Verification Methodology
 
-**FREE FOREVER** is committed to providing 100% transparent, verified, and actionable information on free LLM APIs and free cloud deployment tiers. This document details the hybrid architecture used to discover, curate, benchmark, and maintain the dataset.
+**FREE FOREVER** ([free-forever.vercel.app](https://free-forever.vercel.app)) is committed to providing 100% transparent, verified, and actionable intelligence on free LLM APIs and free cloud deployment tiers. This document details the hybrid architecture used to discover, curate, benchmark, and maintain the dataset.
 
 ---
 
 ## 1. The Core Problem with "Free" Tiers
 
 Most online developer directories and aggregator sites are quickly outdated or obscure critical signup hurdles:
-- **Hidden friction**: Many "free" tiers require a valid credit card or strict SMS verification.
+- **Hidden friction**: Many "free" tiers require a valid credit card or strict SMS phone verification.
 - **Unstated limits**: Quotas are often buried across disparate documentation pages, terms of service, or hidden behind API response headers.
 - **Silent tier deprecations**: Platforms adjust memory limits, sleep timeouts, or request budgets without notice.
 
 To solve this, our system employs a **three-tier data verification methodology**:
 1. **AI-Assisted Automated Extraction & Ingestion**
 2. **First-Party Empirical Benchmark Testing**
-3. **Rigorous Human Verification & Hash-Diff Auditing**
+3. **Rigorous Human Verification, Community Contributions & Hash-Diff Auditing**
 
 ```
 ┌────────────────────────────────┐
@@ -39,6 +39,11 @@ To solve this, our system employs a **three-tier data verification methodology**
                ▼
 ┌────────────────────────────────┐
 │   Human Review & Approval      │ (Final sign-off before production release)
+└──────────────┬─────────────────┘
+               │
+               ▼
+┌────────────────────────────────┐
+│ Community Feedback & PRs       │ (Crowdsourced corrections & new additions)
 └────────────────────────────────┘
 ```
 
@@ -71,7 +76,7 @@ Whenever an API provider did not publish authoritative latency or throughput met
 ### Phase 3: Human Verification & Sign-off
 
 - No AI-extracted change is promoted directly to public-facing production files without human inspection.
-- When differences are flagged, they are recorded into an `alerts.csv` changelog for review.
+- When differences are flagged, they are recorded into [`data/alerts.csv`](./data/alerts.csv) for review.
 - Every row contains a `last_verified` date and a `verified_by` audit trail (e.g., `docs`, `own_tested`, `pricing_page`).
 
 ---
@@ -80,7 +85,15 @@ Whenever an API provider did not publish authoritative latency or throughput met
 
 To ensure the registry remains evergreen, a daily scheduled workflow (`.github/workflows/limits-monitor.yml`) executes at 00:00 UTC:
 1. Calculates SHA-256 hashes for all monitored endpoints.
-2. Compares hashes against `url_content_hashes.json`.
+2. Compares hashes against [`data/url_content_hashes.json`](./data/url_content_hashes.json).
 3. If an endpoint's hash changes, only that specific URL is re-parsed to discover newly adjusted numbers.
 4. Alerts are logged with old vs. new values and committed automatically for maintainer review.
 
+---
+
+## 4. Community Contributions & Corrections
+
+The ecosystem of developer tools and LLM platforms moves at a rapid pace. We actively encourage developers and platform maintainers to help keep the data accurate:
+- **Found a new free tier?** We welcome submissions for any service offering permanent free usage, recurring credits, or generous developer trials.
+- **Noticed a changed limit?** If a provider adjusted their RPM, changed idle timeouts, or started requesting credit cards, submit an edit to the CSV files in `data/`.
+- **Contribute PRs**: All datasets live as plain CSVs in `data/` for easy reviewing and git diff inspection.

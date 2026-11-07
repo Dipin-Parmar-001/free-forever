@@ -1,6 +1,6 @@
 # Official Documentation & Pricing Sources
 
-This document catalogs all verified primary sources, official documentation pages, developer portals, and pricing sheets consulted in building and maintaining **FREE FOREVER**.
+This document catalogs all verified primary sources, official documentation pages, developer portals, and pricing sheets consulted in building and maintaining **FREE FOREVER** ([free-forever.vercel.app](https://free-forever.vercel.app)).
 
 ---
 
@@ -41,5 +41,11 @@ This document catalogs all verified primary sources, official documentation page
 All sources listed above are audited automatically by our **GitHub Actions Limits Monitor**:
 1. Every URL is retrieved and parsed into normalized text content.
 2. Cryptographic SHA-256 hashes are computed to identify any documentation updates instantly.
-3. Upon detecting content drift, our workflow leverages LLM parsing (`nvidia/nemotron-3-ultra-550b-a55b`) to extract updated values and append audit alerts to `alerts.csv` for human verification.
+3. Upon detecting content drift, our workflow leverages LLM parsing (`nvidia/nemotron-3-ultra-550b-a55b`) to extract updated values and append audit alerts to [`data/alerts.csv`](./data/alerts.csv) for human verification.
+4. Verified updates are merged into production CSVs in [`data/`](./data/).
 
+---
+
+## 4. Community Corrections & Additions
+
+If you find that an upstream URL has changed, moved, or if a provider has updated their pricing structure, please feel free to open a Pull Request or issue on our GitHub repository. We actively welcome contributions to keep all listings 100% up to date.
