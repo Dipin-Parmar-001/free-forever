@@ -12,6 +12,7 @@
 ### 🌐 [https://free-forever.netlify.app/](https://free-forever.netlify.app/)
 
 [**Live Application**](https://free-forever.netlify.app/) • [**Verified Sources**](./sources.md) • [**Data Collection & Benchmarks**](./data_collection.md) • [**Contributing**](#-contributing--community-updates)
+[**Live Application**](https://free-forever.netlify.app/) • [**Verified Sources**](./sources.md) • [**Data Collection & Benchmarks**](./data_collection.md) • [**Contributing**](#-contributing--community-updates)
 
 </div>
 
