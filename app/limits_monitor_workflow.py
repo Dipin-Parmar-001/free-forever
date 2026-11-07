@@ -14,14 +14,18 @@ load_dotenv()
 APP_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = APP_DIR.parent
 
-# Input directory (copy_data; data folder is NEVER touched)
-TARGET_DIR = PROJECT_ROOT / "copy_data"
+# Input directory (Defaults to 'data' for repo production/GitHub Actions; can fallback to 'copy_data')
+DATA_DIR = PROJECT_ROOT / "data"
+COPY_DATA_DIR = PROJECT_ROOT / "copy_data"
+TARGET_DIR = DATA_DIR if DATA_DIR.exists() else COPY_DATA_DIR
 
 # LLM Offerings Dataset
 LLM_CSV_PATH = TARGET_DIR / "free_llm_directory_schema-offering.csv"
 
-# Deployment Platforms Dataset (Offerings Sheet)
-DEPLOYMENT_CSV_PATH = TARGET_DIR / "deployment_platforms_offerings_final-offerings.csv"
+# Deployment Platforms Dataset (Checks new CSV file; fallback to copy_data naming if needed)
+DEPLOYMENT_CSV_PATH = TARGET_DIR / "deployment_platforms_offerings_final.csv"
+if not DEPLOYMENT_CSV_PATH.exists():
+    DEPLOYMENT_CSV_PATH = TARGET_DIR / "deployment_platforms_offerings_final-offerings.csv"
 
 # Hash cache and alerts file
 HASHES_JSON_PATH = TARGET_DIR / "url_content_hashes.json"
@@ -522,6 +526,9 @@ def run_deployment_monitoring(saved_hashes: dict, current_time_str: str) -> int:
     # Group rows by source_url (strip anchor/fragment to avoid redundant fetches)
     url_to_rows = {}
     for row in reader:
+        # Ignore empty spacer rows if present in CSV
+        if not (row.get("offering_id") or row.get("OFFERING_ID") or row.get("product_name")):
+            continue
         url = (row.get("source_url") or row.get("SOURCE_URL") or "").strip()
         if url and url.lower() not in ["null", "none", "n/a"]:
             base_url = url.split("#")[0].rstrip("/")

@@ -1,0 +1,13 @@
+platform_id,name,website_url,pricing_url,docs_url,category,signup_methods
+vercel,Vercel,https://vercel.com,https://vercel.com/pricing,https://vercel.com/docs,serverless,email|github|gitlab|bitbucket|google
+netlify,Netlify,https://www.netlify.com,https://www.netlify.com/pricing/,https://docs.netlify.com,static_hosting,email|github|gitlab|bitbucket|google
+railway,Railway,https://railway.com,https://railway.com/pricing,https://docs.railway.com,paas,email|github|google
+render,Render,https://render.com,https://render.com/pricing,https://render.com/docs,paas,email|github|gitlab|google
+supabase,Supabase,https://supabase.com,https://supabase.com/pricing,https://supabase.com/docs,backend_as_service,email|github|sso
+cloudflare-pages,Cloudflare Pages,https://pages.cloudflare.com,https://developers.cloudflare.com/pages/platform/limits/,https://developers.cloudflare.com/pages/,static_hosting,email
+trigger-dev,Trigger.dev,https://trigger.dev,https://trigger.dev/pricing,https://trigger.dev/docs,serverless,email|github
+github-pages,GitHub Pages,https://pages.github.com,https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits,https://docs.github.com/en/pages,static_hosting,github
+fly-io,Fly.io,https://fly.io,https://fly.io/pricing/,https://docs.fly.io,container,email|github|google
+oracle-cloud,Oracle Cloud Infrastructure (Always Free),https://www.oracle.com/cloud/,https://www.oracle.com/cloud/free/,https://docs.oracle.com/iaas/Content/FreeTier/freetier_topic-Always_Free_Resources.htm,vps,email|phone_sms|credit_card
+cloud-run,Google Cloud Run,https://cloud.google.com/run,https://cloud.google.com/run/pricing,https://cloud.google.com/run/docs,serverless,google
+deno-deploy,Deno Deploy,https://deno.com/deploy,https://deno.com/deploy/pricing,https://docs.deno.com/deploy,serverless,github|google
