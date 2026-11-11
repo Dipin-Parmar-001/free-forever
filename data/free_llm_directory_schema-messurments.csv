@@ -65,3 +65,29 @@ daaea900-c617-4273-b925-2b43e1adf9b0,mistral_studio__voxtral-mini-transcribe-rea
 8bfe6506-b9d7-418a-92f4-da2db62377c4,mistral_studio__voxtral-mini-tts-3-0,2026-11-05T18:53:51+05:30,India,own_tested,null,null,30,30,1.754,1.754,1.622,2.904,null,TRUE,96.31,none
 dd2af659-6fa3-4283-bcf3-ac7c7e285d97,mistral_studio__voxtral-small-2507,2026-11-05T18:55:28+05:30,India,own_tested,null,null,30,30,0.982,1.727,1.693,2.255,null,TRUE,95.53,none
 5c6af93b-8940-441f-aa10-e774fade3d71,mistral_studio__voxtral-small-transcribe-3,2026-11-05T18:57:03+05:30,India,own_tested,null,null,30,30,8.299,8.299,4.994,22.822,null,TRUE,292.69,none
+15b7248b-6af2-4612-94e9-805336225b60,sarvam_ai__sarvam-105b,2026-11-11T18:38:52.830460+05:30,India,own_tested,15,16,3,1,1.69,1.69,1.69,1.69,9.5,TRUE,6.49,'NoneType' object is not subscriptable
+dbc61096-2854-465b-b605-4f9857d0f2a5,sarvam_ai__sarvam-105b-conversations,2026-11-11T18:38:57.953512+05:30,India,own_tested,19,16,3,3,1.03,1.03,1.108,1.163,15.5,TRUE,5.11,none
+d3206075-f3c4-455c-a73a-c48c362dd5dc,sarvam_ai__sarvam-vision,2026-11-11T19:19:08.542558+05:30,India,own_tested,null,null,3,0,null,null,null,null,null,FALSE,4.82,"""HTTP 400: {""title"":""Bad Request"",""status"":400,""detail"":""INPUT_INVALID: pagecount: \""sample.png\"" is not a valid JPEG or PNG image: its header cannot be read: pagecount: i"""
+024761b8-5211-4730-bf30-e94e1179cc2d,sarvam_ai__document-ai-parse,2026-11-11T19:19:12.572153+05:30,India,own_tested,null,null,3,0,null,null,null,null,null,FALSE,4.02,"""HTTP 400: {""title"":""Bad Request"",""status"":400,""detail"":""INPUT_INVALID: pagecount: \""sample.png\"" is not a valid JPEG or PNG image: its header cannot be read: pagecount: i"""
+2174933a-fdcc-4303-88b5-c7e417ae3aa7,sarvam_ai__document-ai-extract,2026-11-11T19:19:16.654728+05:30,India,own_tested,null,null,3,0,null,null,null,null,null,FALSE,4.08,"""HTTP 400: {""title"":""Bad Request"",""status"":400,""detail"":""INPUT_INVALID: pagecount: \""sample.png\"" is not a valid JPEG or PNG image: its header cannot be read: pagecount: i"""
+a0f9f7ba-a514-4970-9d3d-aa024cdcedf9,sarvam_ai__embeddinggemma-2,2026-11-11T19:19:20.680780+05:30,India,own_tested,null,null,3,0,null,null,null,null,null,FALSE,4.02,"""HTTP 400: {""error"":{""message"":""This model runs on Provisioned Throughput and is not enabled for your organisation. To request access, contact us: https://docs.sarvam.ai/a"""
+cf2c27a1-80c5-43a1-a418-aa2abc992527,sarvam_ai__sarvam-prism,2026-11-11T19:19:25.067183+05:30,India,own_tested,8,0,3,3,0.789,0.789,0.816,0.849,null,FALSE,4.38,none
+4f0742cd-f0f1-48ab-8d70-0027ff79c118,sarvam_ai__clef,2026-11-11T19:19:30.184981+05:30,India,own_tested,null,null,3,0,null,null,null,null,null,FALSE,5.11,"""HTTP 400: {""error"":{""message"":""This model runs on Provisioned Throughput and is not enabled for your organisation. To request access, contact us: https://docs.sarvam.ai/a"""
+5b088074-12b8-43b5-9913-5f5bc3756600,sarvam_ai__bulbul:v4-flash,2026-11-11T19:19:35.761369+05:30,India,own_tested,5,10,3,3,1.186,1.186,1.224,1.25,8.4,TRUE,5.57,none
+6e2bc456-d990-4849-a04f-55f3fa7cdd52,sarvam_ai__bulbul:v3,2026-11-11T19:19:43.823910+05:30,India,own_tested,5,10,3,3,2.015,2.015,2.31,2.346,5,TRUE,8.06,none
+cd9ab93f-3b8f-40db-b4b2-f0423e11244b,sarvam_ai__saaras:v4,2026-11-11T19:19:48.089425+05:30,India,own_tested,8,1,3,3,0.749,0.749,0.755,0.764,1.3,TRUE,4.26,none
+da5203ac-fe1b-4770-9ff7-c5376f1d47b2,sarvam_ai__saaras:v3,2026-11-11T19:19:53.592467+05:30,India,own_tested,8,1,3,3,1.162,1.162,0.897,1.807,0.9,TRUE,5.5,none
+280b700f-c9d6-4b1e-9193-3892fd40abd3,sarvam_ai__mayura:v1,2026-11-11T19:20:00.432540+05:30,India,own_tested,5,3,3,3,1.607,1.607,1.25,2.381,1.9,FALSE,6.84,none
+338773a5-5400-4ee1-90d7-6e4e79d367bf,sarvam_ai__sarvam-translate:v1,2026-11-11T19:20:07.428028+05:30,India,own_tested,5,3,3,3,1.659,1.659,1.509,2.171,1.8,FALSE,6.99,none
+30a3ff22-2a69-43df-9b6c-f2c563a29505,sarvam_ai__sarvam-105b,2026-11-11T19:25:24.617340+05:30,India,own_tested,15,16,15,15,1.197,1.197,1.016,2.273,13.4,TRUE,32.1,none
+3c3394af-3610-4ec0-ad1f-9248ce48b27a,sarvam_ai__sarvam-105b-conversations,2026-11-11T19:26:00.275776+05:30,India,own_tested,19,16,15,15,1.43,1.43,1.05,2.304,11.2,TRUE,35.58,none
+53b2e9f4-0bb8-4268-9a44-1982d4cb1318,sarvam_ai__sarvam-prism,2026-11-11T19:26:43.065327+05:30,India,own_tested,8,0,15,15,1.401,1.401,1.731,1.954,null,FALSE,35.09,none
+37966f65-2114-4c5f-b0e2-083906da8c2a,sarvam_ai__bulbul:v4-flash,2026-11-11T19:27:25.572942+05:30,India,own_tested,5,10,15,15,1.782,1.782,2.157,2.487,5.6,TRUE,40.8,none
+1a02821d-61e5-4096-85db-d7216747a951,sarvam_ai__bulbul:v3,2026-11-11T19:28:08.133281+05:30,India,own_tested,5,10,15,15,1.899,1.899,2.192,2.756,5.3,TRUE,42.56,none
+430b39bd-ae58-4150-8e4e-ff0b3c762f14,sarvam_ai__saaras:v4,2026-11-11T19:28:46.550005+05:30,India,own_tested,8,1,15,15,1.623,1.623,1.866,2.088,0.6,TRUE,38.41,none
+4e6fe0f7-a273-49a4-ae11-ec10c571c2dd,sarvam_ai__saaras:v3,2026-11-11T19:29:24.998937+05:30,India,own_tested,8,1,15,15,1.625,1.625,0.97,7.144,0.6,TRUE,38.45,none
+eb3cefc7-1780-4bb1-8be1-52c4cc476189,sarvam_ai__mayura:v1,2026-11-11T19:30:02.620326+05:30,India,own_tested,5,3,15,15,1.57,1.57,1.247,2.494,1.9,FALSE,37.62,none
+cd414e98-db13-4beb-b5d0-125faf93bf99,sarvam_ai__sarvam-translate:v1,2026-11-11T19:30:38.625736+05:30,India,own_tested,5,3,15,15,1.462,1.462,1.211,2.227,2.1,FALSE,36,none
+6df01e77-1ffb-4ba5-b6fa-90e716b4cb54,sarvam_ai__document-ai-parse,2026-11-11T19:47:31.767844+05:30,India,own_tested,25,10,15,15,1.965,1.965,1.902,3.367,5.1,FALSE,43.65,none
+813e4530-da83-442c-aaad-af27e55fe1d5,sarvam_ai__document-ai-extract,2026-11-11T19:48:17.921192+05:30,India,own_tested,25,10,15,15,2.138,2.138,2.293,2.85,4.7,FALSE,46.15,none
+2d547f8a-9289-40d1-b519-7981bbf5ef39,sarvam_ai__sarvam-vision,2026-11-11T19:46:48.100433+05:30,India,own_tested,25,10,15,15,1.859,1.859,1.695,2.685,5.4,FALSE,40.5,none
