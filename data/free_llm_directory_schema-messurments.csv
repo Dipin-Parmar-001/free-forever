@@ -50,21 +50,6 @@ aa1212c6-f7e3-4df5-b11d-417d06099f1f,openrouter__liquid-lfm-2-5-embedding-350m-f
 e0592477-84db-4c79-8987-b4b5df302891,openrouter__openrouter-free-router,2026-11-03T21:49:05+05:30,global,provider_stated,null,null,0,0,0.85,0.95,0.85,4.5,55,TRUE,0,
 e0592477-84db-4c79-8987-b4b5df302892,cerebras__free-gpt-oss-120b,2026-11-05T21:35:00+05:30,us-east,provider_stated,null,null,0,0,0.28,0.963,0.91,1.25,3000,TRUE,0,
 e0592477-84db-4c79-8987-b4b5df302893,cerebras__free-qwen-3.8-27b,2026-11-05T21:35:00+05:30,us-east,provider_stated,null,null,0,0,0.3,1.407,1.38,1.82,1850,TRUE,0,
-1a39b76f-303b-4f00-86df-bbab147983f6,mistral_studio__codestral-2508,2026-11-05T18:00:31+05:30,India,own_tested,null,null,30,30,1.056,1.834,1.829,2.457,null,TRUE,74.98,none
-567a1d95-0514-44fa-ab4b-963afb7757ce,mistral_studio__codestral-embed,2026-11-05T18:01:46+05:30,India,own_tested,null,null,30,30,1.156,1.156,1.018,2.534,null,FALSE,69.71,none
-c0f58097-8e21-4f45-bfc4-42649a1c3560,mistral_studio__ministral-3b-2512,2026-11-05T18:08:46+05:30,India,own_tested,null,null,30,30,1.126,2.952,2.664,5.336,null,TRUE,96.89,none
-355f7b9c-b2b1-4bac-84db-f45a3674c063,mistral_studio__ministral-8b-2512,2026-11-05T18:10:23+05:30,India,own_tested,null,null,30,30,1.497,4.15,3.607,5.748,null,TRUE,139.78,none
-8052090c-888b-4cf1-ad04-638eaf6c2871,mistral_studio__mistral-embed-2312,2026-11-05T18:12:43+05:30,India,own_tested,null,null,30,30,1.792,1.792,1.542,3.468,null,FALSE,88.76,none
-3b3da4b1-0b7b-4b0c-8d58-2e49e0192e1c,mistral_studio__mistral-large-4,2026-11-05T18:41:59+05:30,India,own_tested,null,null,30,30,2.209,3.408,2.787,8.584,null,TRUE,151.74,none
-2b77b5c0-5554-407d-840e-7ec7bbe8f4f6,mistral_studio__mistral-moderation-2603,2026-11-05T18:18:34+05:30,India,own_tested,null,null,30,30,0.868,0.868,0.804,1.308,null,FALSE,49.45,none
-89992070-69f0-4657-bfb7-3dd8839128c2,mistral_studio__voxtral-mini-2602,2026-11-05T18:46:49+05:30,India,own_tested,null,null,30,30,3.395,3.395,2.53,7.89,null,TRUE,145.55,none
-290bad75-bfea-4adb-b3bf-b184a717ae21,mistral_studio__voxtral-mini-transcribe-3,2026-11-05T18:49:15+05:30,India,own_tested,null,null,30,30,4.6,4.6,4.541,5.737,null,TRUE,181.68,none
-1660a839-959c-41ed-98cb-792a48a5237c,mistral_studio__voxtral-mini-transcribe-realtime-2602,2026-11-05T18:52:17+05:30,India,own_tested,null,null,0,0,null,null,null,null,null,TRUE,0,WebSocket realtime audio only (HTTP not supported)
-daaea900-c617-4273-b925-2b43e1adf9b0,mistral_studio__voxtral-mini-transcribe-realtime-3,2026-11-05T18:52:17+05:30,India,own_tested,null,null,0,0,null,null,null,null,null,TRUE,0,WebSocket realtime audio only (HTTP not supported)
-66712a16-9aa0-4949-beb9-a214ddcc5483,mistral_studio__voxtral-mini-tts-2603,2026-11-05T18:52:17+05:30,India,own_tested,null,null,30,30,1.69,1.69,1.651,2.534,null,TRUE,94.43,none
-8bfe6506-b9d7-418a-92f4-da2db62377c4,mistral_studio__voxtral-mini-tts-3-0,2026-11-05T18:53:51+05:30,India,own_tested,null,null,30,30,1.754,1.754,1.622,2.904,null,TRUE,96.31,none
-dd2af659-6fa3-4283-bcf3-ac7c7e285d97,mistral_studio__voxtral-small-2507,2026-11-05T18:55:28+05:30,India,own_tested,null,null,30,30,0.982,1.727,1.693,2.255,null,TRUE,95.53,none
-5c6af93b-8940-441f-aa10-e774fade3d71,mistral_studio__voxtral-small-transcribe-3,2026-11-05T18:57:03+05:30,India,own_tested,null,null,30,30,8.299,8.299,4.994,22.822,null,TRUE,292.69,none
 15b7248b-6af2-4612-94e9-805336225b60,sarvam_ai__sarvam-105b,2026-11-11T18:38:52.830460+05:30,India,own_tested,15,16,3,1,1.69,1.69,1.69,1.69,9.5,TRUE,6.49,'NoneType' object is not subscriptable
 dbc61096-2854-465b-b605-4f9857d0f2a5,sarvam_ai__sarvam-105b-conversations,2026-11-11T18:38:57.953512+05:30,India,own_tested,19,16,3,3,1.03,1.03,1.108,1.163,15.5,TRUE,5.11,none
 d3206075-f3c4-455c-a73a-c48c362dd5dc,sarvam_ai__sarvam-vision,2026-11-11T19:19:08.542558+05:30,India,own_tested,null,null,3,0,null,null,null,null,null,FALSE,4.82,"""HTTP 400: {""title"":""Bad Request"",""status"":400,""detail"":""INPUT_INVALID: pagecount: \""sample.png\"" is not a valid JPEG or PNG image: its header cannot be read: pagecount: i"""
